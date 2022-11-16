@@ -4,8 +4,8 @@
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
-    "preinstall": "pnpm dlx only-allow pnpm",
-    "repo:app": "pnpm --filter @kurly-frontend/app"
+    "repo:app": "pnpm --filter @kurly-frontend/app",
+    "preinstall": "pnpm dlx only-allow pnpm"
   },
   "workspaces": [
     "packages/*"
