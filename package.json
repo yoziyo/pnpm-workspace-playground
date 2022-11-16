@@ -1,0 +1,17 @@
+{
+  "name": "monorepo-playground",
+  "private": true,
+  "scripts": {
+    "preinstall": "pnpm dlx only-allow pnpm",
+    "repo:app": "pnpm --filter @kurly-frontend/app"
+  },
+  "workspaces": ["packages/*"],
+  "engines": {
+    "node": ">=18.12.1", 
+    "pnpm": ">=7.16.0" 
+  },
+  "packageManager": "pnpm@7.16.0", 
+  "devDependencies": {
+    "pnpm": "^7.16.0"
+  }
+}
